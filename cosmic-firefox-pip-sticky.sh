@@ -10,7 +10,7 @@ INSTALL_DIR="${APPS_DIR}/${APP_NAME}"
 INSTALL_PATH="${INSTALL_DIR}/${APP_NAME}.sh"
 UNIT_DIR="${HOME}/.config/systemd/user"
 SERVICE_PATH="${UNIT_DIR}/${APP_NAME}.service"
-RAW_URL="https://raw.githubusercontent.com/MagnetosphereLabs/cosmic-firefox-pip-sticky/main/${APP_NAME}.sh"
+RAW_URL="https://raw.githubusercontent.com/MagnetosphereLabs/cosmic-firefox-pip-fix/main/cosmic-firefox-pip-sticky.sh"
 HELPER_PATH="${HELPER_PATH:-${HOME}/.local/bin/cosmic-ext-window-helper}"
 
 say() {
