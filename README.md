@@ -1,5 +1,3 @@
-# cosmic-firefox-pip-sticky
-
 A tiny user level service for Pop!_OS COSMIC that automatically makes Firefox Picture-in-Picture windows sticky above other windows on your COSMIC desktop.
 
 This fixes the common COSMIC behavior where Firefox PiP works, but falls behind the next focused app. The service checks every 2 seconds and applies COSMIC's sticky window state to any Firefox PiP window that is not already sticky.
